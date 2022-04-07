@@ -35,7 +35,7 @@ function App() {
     <div className="App">
       <img src={imgData.url} alt="space"></img>
       <h1>{imgData.title}</h1>
-      <p>{imgData.explanation}</p>
+      <p className="Description">{imgData.explanation}</p>
     </div>
   );
 }

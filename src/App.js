@@ -1,4 +1,5 @@
 import "./App.css";
+import Switch from "./Switch.js";
 
 import { useState } from "react";
 import { useEffect } from "react";
@@ -33,7 +34,8 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <img src={imgData.url} alt="space"></img>
+      <Switch />
+      <img className="image" src={imgData.url} alt="space"></img>
       <h1>{imgData.title}</h1>
       <p className="Description">{imgData.explanation}</p>
     </div>

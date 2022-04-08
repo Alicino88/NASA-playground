@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+:root {
+  --text: #4e5354;
+  --heading: #486369;
+  --frame: #2d3030;
+}
 .App {
   text-align: center;
 }
@@ -12,8 +17,19 @@ img {
   padding: 40px;
 }
 
+/* elements that change color */
+
+.image {
+  border: 2px solid var(--frame);
+}
+
 .Description {
   text-align: left;
   width: 800px;
   margin: 30px auto;
+  color: var(--text);
+}
+
+h1 {
+  color: var(--heading);
 }
